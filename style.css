@@ -1,0 +1,41 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: 'Bungee', cursive;
+  margin: 1em;
+}
+
+h1 {
+  color: #000000;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+p1 {
+  
+}
+#selection_menu {
+  font-family: 'Bungee', cursive;
+}
+
+#background_rectangle {
+  border-radius: 25px;
+  background: linear-gradient(to right, #c2e59c, #64b3f4); 
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px; 
+  width: 1260px;
+  height: 300px; 
+}
+
+#code_overlay {
+  border-radius: 25px;
+  background: rgba(149,149,149,0.3); 
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px; 
+  width: 1260px;
+  height: 50px;
+}
