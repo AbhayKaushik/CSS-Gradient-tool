@@ -8,7 +8,7 @@
     
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Bungee|Roboto:400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 
     <!-- import the webpage's javascript file -->
@@ -17,6 +17,9 @@
   <body>
     <h1>CSS Gradient Tool <i class="fas fa-paint-brush"></i> </h1>
     <div id = "selection_menu">
+      <div id = "user-label" class = "badge"></div>
+      <div id = "computer-label" class = "badge"></div>
+      <span id = "user-score"> #ffffff </span> -> <span id = "comp-score">  #000000 </span>
     </div>
     <div id = "background_rectangle">
     </div>
@@ -27,7 +30,8 @@
       CSS Code
       <i class="fas fa-code"></i>
     </p1>
-    <div id = "code_overlay">   
+    <div id = "code_overlay">
+      background: linear-gradient(to right, #c2e59c, #64b3f4);
     </div>
 
     <!-- include the Glitch button to show what the webpage is about and
