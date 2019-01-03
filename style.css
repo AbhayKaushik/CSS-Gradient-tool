@@ -1,8 +1,8 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: 'Bungee', cursive;
-  margin: 1em;
+  font-family: 'Roboto Mono', monospace;
+  font-size : 17px;
 }
 
 h1 {
@@ -14,11 +14,17 @@ p {
 }
 
 p1 {
-  
+  font-family: 'Roboto Mono', cursive;
 }
+
 #selection_menu {
   font-family: 'Bungee', cursive;
+  font-family: 'Roboto Mono', cursive;
+  text-align: center;
+  padding-bottom: 10px;
 }
+
+
 
 #background_rectangle {
   border-radius: 25px;
@@ -26,11 +32,12 @@ p1 {
   background-position: left top;
   background-repeat: repeat;
   padding: 20px; 
-  width: 1260px;
+  width: 98%;
   height: 300px; 
 }
 
 #code_overlay {
+  font-size: 10px;
   border-radius: 25px;
   background: rgba(149,149,149,0.3); 
   background-position: left top;
