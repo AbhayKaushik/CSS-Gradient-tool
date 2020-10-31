@@ -33,7 +33,7 @@ p1 {
   background-repeat: repeat;
   margin: 5px;
   padding: 20px; 
-  #width: 98%;
+  /*width: 98%;*/
   height: 300px; 
 }
 
@@ -44,6 +44,6 @@ p1 {
   background-position: left top;
   background-repeat: repeat;
   padding: 20px; 
-  #width: 1260px;
+  /*width: 1260px;*/
   height: 50px;
 }
